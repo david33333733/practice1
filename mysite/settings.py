@@ -38,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',  # 이 줄 추가
+    'apage.apps.ApageConfig',
+    'bpage.apps.BpageConfig',
+    'cpage.apps.CpageConfig',
+    'introducepage.apps.IntroducepageConfig',
+    
 ]
 
 MIDDLEWARE = [
